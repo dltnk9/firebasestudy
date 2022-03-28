@@ -3,6 +3,7 @@ import AppRouter from "./Router";
 import Router from "components/Router";
 import { authService } from "../fBase";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
+
 function App() {
   const [init, setInit] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
